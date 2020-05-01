@@ -1,0 +1,45 @@
+20:41:14 **** Incremental Build of configuration Debug for project DriverProject ****
+make all 
+Building file: ../src/AbstractItem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/AbstractItem.d" -MT"src/AbstractItem.o" -o "src/AbstractItem.o" "../src/AbstractItem.cpp"
+Finished building: ../src/AbstractItem.cpp
+ 
+Building file: ../src/AbstractStore.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/AbstractStore.d" -MT"src/AbstractStore.o" -o "src/AbstractStore.o" "../src/AbstractStore.cpp"
+Finished building: ../src/AbstractStore.cpp
+ 
+Building file: ../src/AppleStore.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/AppleStore.d" -MT"src/AppleStore.o" -o "src/AppleStore.o" "../src/AppleStore.cpp"
+Finished building: ../src/AppleStore.cpp
+ 
+Building file: ../src/DriverProject.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/DriverProject.d" -MT"src/DriverProject.o" -o "src/DriverProject.o" "../src/DriverProject.cpp"
+Finished building: ../src/DriverProject.cpp
+ 
+Building file: ../src/IPhone.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/IPhone.d" -MT"src/IPhone.o" -o "src/IPhone.o" "../src/IPhone.cpp"
+Finished building: ../src/IPhone.cpp
+ 
+Building file: ../src/Item.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Item.d" -MT"src/Item.o" -o "src/Item.o" "../src/Item.cpp"
+Finished building: ../src/Item.cpp
+ 
+Building file: ../src/Store.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Store.d" -MT"src/Store.o" -o "src/Store.o" "../src/Store.cpp"
+Finished building: ../src/Store.cpp
+ 
+Building target: DriverProject
+Invoking: MacOS X C++ Linker
+g++  -o "DriverProject"  ./src/AbstractItem.o ./src/AbstractStore.o ./src/AppleEmployee.o ./src/AppleStore.o ./src/DriverProject.o ./src/Employee.o ./src/IPhone.o ./src/Item.o ./src/Person.o ./src/Store.o   
+Finished building target: DriverProject
+ 
+
+20:41:19 Build Finished. 0 errors, 0 warnings. (took 4s.961ms)
+
